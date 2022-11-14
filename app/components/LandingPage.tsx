@@ -5,13 +5,15 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 export const LandingPage = () => {
   return (
-    <Stack spacing={4}>
+    <Stack spacing={6}>
       <Heading as="h1" size="3xl">
         Welcome to Networthy! 🤑
       </Heading>
 
       <Text fontSize="2xl" align="center">
-        You work 1/3rd of your life for money. Find out how much that's worth.
+        {
+          "You work 1/3rd of your life for money. Find out how much that's worth."
+        }
       </Text>
 
       <Button
