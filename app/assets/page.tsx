@@ -4,7 +4,7 @@ export default function Assets() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>Gimme all your assets bitch</h1>
+        <h1>Gimme all your assets</h1>
       </main>
     </div>
   );
