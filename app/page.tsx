@@ -3,7 +3,7 @@ import { LandingPage } from "components/LandingPage";
 import { GetNotifiedCta } from "components/GetNotifiedCta";
 import { GetStartedCta } from "components/GetStartedCta";
 
-const isLaunched = process.env.IS_LAUNCHED;
+const isLaunched = process.env.NODE_ENV === "development";
 
 export default function Home() {
   return (
