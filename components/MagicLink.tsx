@@ -1,3 +1,5 @@
+"use client";
+
 // Custom chakra ui link for Next13
 import NextLink, { type LinkProps as NextLinkProps } from "next/link";
 import { chakra } from "@chakra-ui/react";
